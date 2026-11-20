@@ -62,3 +62,7 @@ The full rules are in the [constitution](.specify/memory/constitution.md). In sh
 Backpat is built with spec-driven development using [Spec Kit](https://github.com/github/spec-kit). Each feature goes through `/speckit-specify`, `/speckit-clarify`, `/speckit-plan`, `/speckit-tasks`, `/speckit-implement` and `/speckit-converge` in Cursor. The briefs in `docs/briefs/` are the starting input, and each brief is retired once its feature's spec replaces it.
 
 Contributions go through pull requests using the [PR template](.github/pull_request_template.md). Read [`AGENTS.md`](AGENTS.md) before changing anything that touches vault data.
+
+## License
+
+Backpat is licensed under the [Apache License 2.0](LICENSE). The Spec Kit files in `.specify/` and `.cursor/skills/speckit-*` come from [Spec Kit](https://github.com/github/spec-kit) and are MIT-licensed. See [NOTICE](NOTICE).
